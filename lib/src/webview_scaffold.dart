@@ -145,6 +145,7 @@ class _WebviewScaffoldState extends State<WebviewScaffold> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: widget.appBar,
       resizeToAvoidBottomInset: widget.resizeToAvoidBottomInset,
       persistentFooterButtons: widget.persistentFooterButtons,
